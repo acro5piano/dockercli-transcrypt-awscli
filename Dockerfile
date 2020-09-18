@@ -1,7 +1,5 @@
 FROM alpinelinux/docker-cli
 
-RUN apk add
-
 # Install CLI tools
 RUN apk --no-cache add \
         bash \
